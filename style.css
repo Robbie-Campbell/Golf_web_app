@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+body{
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    height:100vh;
+    width:100vw;
+    justify-content: center;
+}
+.insert_names{
+    display: flex;
+    margin-top: 10vh;
+    flex-direction: column;
+    padding:40px;
+    background-color: #CCCCCC;
+}
+
+.insert_names input, .insert_names button{
+    margin:3px;
+    padding:10px;
+}
+
+h1{
+    margin-top: 5vh;;
+    color: white;
+    padding:10px;
+    border-bottom: solid 1px grey;
+}
+
+.remove_panel{
+    position: absolute;
+    visibility: hidden;
+}
+
+.add_selection{
+    opacity:1;
+    animation: slideIn 1.5s ease ;
+    visibility: visible;
+}
+
+@keyframes slideIn{
+    0%{
+        opacity:0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.results{
+    margin-top:10vh;
+    visibility: hidden;
+}
