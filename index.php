@@ -1,6 +1,15 @@
-<!-- Thanyou for having a look at this webapp! i hope that you  enjoy it, if you have any suggestions for improving the source code
-or general quality of life, don't hesitate to get in contact with me at: robbielcampbell31@gmail.com. Thanks and enjoy! !-->
+<!-- 
+Author: Robbie C
+Date 08/06/2020
+Description:    
+Thanyou for having a look at this webapp! i hope that you  enjoy it, if you have any suggestions for improving the source code
+or general quality of life, don't hesitate to get in contact with me at: robbielcampbell31@gmail.com. Thanks and enjoy!
 
+Github:
+https://github.com/Robbie-Campbell
+!-->
+
+<!-- Standard boilerplate-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +20,10 @@ or general quality of life, don't hesitate to get in contact with me at: robbiel
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
+    <!-- bootstrap container for DOM-->
     <div class="container text-center">
         <h1 class="title">Golf Game Randomizer</h1>
+        <!-- The names for the generator -->
             <div class="insert_names">
                 <input type="text" class="name_1" placeholder="Input First Name">
                 <input type="text" class="name_2" placeholder="Input Second Name">
@@ -20,6 +31,7 @@ or general quality of life, don't hesitate to get in contact with me at: robbiel
                 <input type="text" class="name_4" placeholder="Input Final Name">
                 <button class="btn btn-primary">Click to get your matchup</button>
             </div>
+        <!-- The containers to reveal the match-ups -->
         <div class="results">
             <h1 class="first_pairing"></h1>
             <h1 class="second_pairing"></h1>
