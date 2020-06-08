@@ -1,3 +1,6 @@
+<!-- Thanyou for having a look at this webapp! i hope that you  enjoy it, if you have any suggestions for improving the source code
+or general quality of life, don't hesitate to get in contact with me at: robbielcampbell31@gmail.com. Thanks and enjoy! !-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
