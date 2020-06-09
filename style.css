@@ -6,11 +6,13 @@
 body{
     background-image: url("https://images.squarespace-cdn.com/content/v1/5a5cae8ba803bbf08cd2c793/1519906721308-FKHDETK5KVFPMBBJ7K1B/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKczo5Zn4xktlpMsMj-QlHXeMfNK6GwvtVkYEWiR8XAPyD3GfLCe_DXOSC_YcAacWL_/DSC_6074-1200x800.jpg?format=2500w");
     background-size: cover; 
+    height: 100vh;
 }
 
 .container{
     height: 100vh;
 }
+
 .insert_names{
     display: flex;
     margin-top: 10vh;
