@@ -1,6 +1,6 @@
 # Golf_web_app
 
-# A cool project that was made during the lockdown for members a golf club!
+## A cool project that was made during the lockdown for members of a golf club!
 
 ![image](https://user-images.githubusercontent.com/56073739/94464806-db4f1200-01b6-11eb-8060-bdd0484a4d69.png)
 
